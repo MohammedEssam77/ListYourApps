@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List Your Apps</string>
+    <string name="deselect_all"> إلغاء تحديد الكل</string>
+    <string name="share">مشاركة</string>
+    <string name="add">إضافة</string>
+    <string name="remove">إزالة</string>
+    <string name="save">حفظ</string>
+    <string name="help">مساعدة</string>
+    <string name="edit_templates"> تعديل</string>
+    <string name="annotations">إضافة ملاحظة</string>
+
+    <string-array name="stdformattitles">
+        <item>Einfacher Text</item>
+        <item>HTML Liste</item>
+        <item>BBCode Liste</item>
+        <item>Markdown Liste</item>
+        <item>Market URL</item>
+    </string-array>
+    <string-array name="stdheaders">
+        <item></item>
+        <item>&lt;ul&gt;\n</item>
+        <item>[list]\n</item>
+        <item>\n</item>
+        <item></item>
+    </string-array>
+    <string-array name="stdformats">
+        <item>${displayname}\n\t${packagename}\n</item>
+        <item>&lt;a href=\"${source}\"&gt;${displayname}&lt;/a&gt; ${comment}\n</item>
+        <item>[*] [url=${source}]${displayname}[/url] ${comment}\n</item>
+        <item>* [${displayname}](${source}) ${comment}\n</item>
+        <item>market://details?id=${packagename}\n</item>
+    </string-array>
+    <string-array name="stdfooters">
+        <item></item>
+        <item>&lt;/ul&gt;\nListe erstellt mit &lt;a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps"&gt;List My Apps&lt;/a&gt;</item>
+        <item>[/list]\nListe erstellt mit [url=https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps]List My Apps[/url]</item>
+        <item>\nListe erstellt mit [List My Apps](https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps)</item>
+        <item></item>
+    </string-array>
+
+    <string name="always_link"> الارتباط دائمًا بمتجر Google Play </string>
+    <string name="lbl_format_as">نسخ / مشاركة على النحو التالي:</string>
+    <string name="lbl_version">الإصدار</string>
+    <string name="lbl_versioncode">رمز الإصدار</string>
+    <string name="lbl_installed">المثبتة اولا</string>
+    <string name="lbl_updated"> آخر تحديث</string>
+    <string name="lbl_uid">هوية المستخدم</string>
+    <string name="lbl_datadir">دليل البيانات</string>
+    <string name="lbl_templates"> تحديد كيفية تنسيق القوائم. يمكنك إنشاء أي عدد تريده ، ولكن يجب أن يكون لديك واحد على الأقل.</string>
+    <string name="lbl_template_editor">      يتكون القالب من عنصر القائمة (المراد ملؤه بمعلومات التطبيق) ، بالإضافة إلى رأس وتذييل اختياريين. ستكون جميع الأجزاء متسلسلة   " كما هي  " ، مع تكرار العنصر مرة واحدة لكل تطبيق.  </string>
+    <string name="lbl_annotations_description">   يتم الاحتفاظ بالتعليقات التوضيحية عند إلغاء تثبيت تطبيقهم في حالة إعادة تثبيته لاحقًا. تسمح العلامات بتجميع التطبيقات لتحديد أسرع.</string>
+    <string name="lbl_template_name">اسم القالب:</string>
+    <string name="apprater_title">قيم التطبيق؟</string>
+    <string name="apprater_message"> مرحبا هل تجد هذا التطبيق مفيد. هل تفكر في تقييمه؟ سيستغرق ذلك دقيقة واحدة فقط من وقتك ، لكنه يشجع على المزيد من التطوير.</string>
+    <string name="apprater_positive">بالتأكيد</string>
+    <string name="apprater_negative">لا شكرا</string>
+    <string name="apprater_neutral">في وقت لاحق</string>
+    <string name="title_activity_templates">قوالب</string>
+    <string name="title_activity_annotations">إضافة ملاحظة</string>
+    <string name="title_activity_template_editor">تعديل</string>
+    <string name="title_really_delete">حذف ?</string>
+    <string name="title_variable_to_insert">اختيار متغير</string>
+    <string name="title_send_to">مشاركة</string>
+    <string name="hint_header">رأس القائمة (يجب ألا يكون فارغًا)</string>
+    <string name="hint_item">إدخال القائمة (يجب ألا يكون فارغًا)</string>
+    <string name="hint_footer">قائمة  (قد يتم تركها فارغة)</string>
+    <string name="hint_my_notes">ملاحظاتي</string>
+    <string name="msg_error_no_templates">!!! لقد حذفت جميع القوالب الخاصة بك!</string>
+    <string name="msg_error_incomplete">الاسم والبند مطلوبة!</string>
+    <string name="msg_warn_nothing_selected">حدد التطبيقات التي تريد إدراجها</string>
+    <string name="msg_list_copied_to_clipboard">العناصر المنسوخة إلى الحافظة </string>
+    <string name="msg_too_large">كانت قائمتك كبيرة جدًا للمشاركة. تم نسخها إلى الحافظة بدلاً من ذلك.</string>
+    <string name="msg_name_does_not_support_variables">الاسم لا يدعم المتغيرات</string>
+    <string name="msg_this_cannot_be_undone">هذا لا يمكن التراجع عنه</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="hint_my_tags">شعار (مفصولة بفواصل)</string>
+    <string name="bytag">اختيار مجموعة</string>
+    <string name="title_select_apps_by_tag">حدد التطبيقات مع العلامة</string>
+    <string name="msg_no_apps_tagged">لم يتم العثور على تطبيقات.</string>
+    <string name="browse">تصفح</string>
+
+</resources>
